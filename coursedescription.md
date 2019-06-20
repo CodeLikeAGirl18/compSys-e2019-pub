@@ -66,13 +66,12 @@ It is also important to note, that the main purpose of the assignment is _not_ t
 ### TAs
  * Anders Holst
  * Daniel Alstrup
- * Emilie Bom Cholewa-Madsen
+ * Æmilie Bom Cholewa-Madsen
  * Eva Kroon Enevoldsen
  * Jens Kanstrup Larsen
  * Jonas Flach-Jensen
  * Kristian Bøjer Andreasen
  * Lina Bay
-
 
 Room allocation for exercises will be decided later
 
