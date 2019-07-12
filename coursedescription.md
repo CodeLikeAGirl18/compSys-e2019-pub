@@ -9,7 +9,9 @@ CompSys have gotten a reputation of being both a hand and informative course. As
 
 We do not ask you to read ahead in the material. However, most of you are still inexperienced programmers and CompSys in very heavy on programming and program understanding. You need to think of programming as a _craft_, like playing an instrument. You have during the first year learned the basics of how it works. But if you lay it away over the summer (do not program for two months) you will lose much of these skills that you have gain over the first year.
 
-We will therefore ask you to some programming over the summer. With Boris, I will in beginning of July give some suggestions to exercises you can do.
+We have therefore posted some [preparation exercises and reading](preparations/README.md) you can do over the summer.
+
+It is also important that you have looked into the tools that are needed for the course, so we encourage you to look at the [Tools page](tools/README.md).
 
 ## Short on Course Structure
 In the following is given a short overall description of the course. More details can be found further down.
@@ -47,46 +49,114 @@ It is also important to note, that the main purpose of the assignment is _not_ t
 
 ## Lectures
 
- * Mondays at XX-XX in YYYY
- * Wednesdays at XX-XX in YYYY
- * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and (perhaps unknown)
+ * Mondays at 13-15 in St. UP1
+ * Wednesdays at 10-12 in St. UP1
+ * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and [Someone unknown at the moment]
 
 ## Exercise Classes and Cafées
 
- * Mondays XX-XX
+ * Mondays 15-17
    * These classes are dedicated to exercises.
- * Wednesdays XX-XX
+ * Wednesdays 13-15
    * These classes are dedicated to exercises.
- * Wednesdays XX-XX
-   * This sessions have a café structure and are dedicated to help with assignments and other open questions. 
- * Fridays XX-XX
+ * Wednesdays 15-17
+   * This sessions have a café structure and are dedicated to help with assignments and other open questions.
+ * Fridays 14-16
    * TA organised café classes for help with assignments and exercises.
 <!-- Not all sessions will be held and some can be changed to guest talks. See course plan for details. Held in: -->
 
 ### TAs
  * Anders Holst
  * Daniel Alstrup
- * Æmilie Bom Cholewa-Madsen
  * Eva Kroon Enevoldsen
  * Jens Kanstrup Larsen
  * Jonas Flach-Jensen
  * Kristian Bøjer Andreasen
- * Lina Bay
-
-Room allocation for exercises will be decided later
-
+ * Æmilie Bom Cholewa-Madsen
+ * [Someone]
 
 ### Room details
- * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
- * AKB, August Krogh Bygningen, Universitetsparken 13, remember that entrance is through the side opposite Caféen?, https://www1.bio.ku.dk/om/lokaleoversigter/akb/
- * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
- * DIKU, No further explanation needed
- * HCØ, C103, https://www.fukbh.dk/media/9675696/hco_svalegang.jpg
- * Rockefeller komplekset, Juliane Maries Vej 26-36, https://www.fukbh.dk/media/7145122/http___cms_ku_dk_nat-sites_nbi-sites_for_ansatte_bygningsdrift_tegning_uv_lok_fritekstboks_alle_tre_adresser2.pdf
- * Zoo, Zoologisk Museum, Universitetsparken 15, https://www1.bio.ku.dk/om/lokaleoversigter/park/
-   * Rooms are in Building 3, that has entrance in the yard beside AKB with Cafeen?, https://bio2.science.ku.dk/cms/lokaleoversigt/up15.pdf
 
-(For some reason, it is easier to find maps with Folkeuniversitet than KU.)
+* AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
+* Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
+* DIKU, No further explanation needed
+* NEXS, Nørre Alle 51, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
+
+#### Blok 1
+
+Monday 15-17
+* DIKU 3-1-25
+* Biocenter 2-2-07/09
+* Biocenter 4-0-02
+* Biocenter 4-0-05
+* Biocenter 4-0-10
+* Biocenter 4-0-32
+* NEXS Auditorium Nord
+
+Wednesday 13-15
+* DIKU 1-0-04
+* DIKU 1-0-10
+* DIKU 1-0-14
+* DIKU 1-0-18
+* DIKU 1-0-22
+* DIKU 1-0-30
+* DIKU 1-0-34
+* DIKU 1-0-37
+
+Wednesday 15-17
+* Main room
+  * DIKU Li UP1
+* Breakout rooms
+  * DIKU 1-0-37
+  * DIKU 1-0-04
+
+Friday 14-16
+* Weeks 36-41, 43-44
+  * HCØ A103
+  * HCØ A104
+  * HCØ A105
+  * HCØ A106
+* Week 45
+  * HCØ A107
+  * HCØ A110
+  * HCØ A111
+  * HCØ A112
+
+#### Blok 2
+
+Monday 15-17
+* DIKU 1-0-04
+* DIKU 1-0-10
+* DIKU 1-0-14
+* DIKU 1-0-18
+* DIKU 1-0-22
+* DIKU 1-0-30
+* DIKU 1-0-34
+* DIKU 1-0-37
+
+Wednesday 13-15
+* DIKU 1-0-04
+* DIKU 1-0-10
+* DIKU 1-0-14
+* DIKU 1-0-18
+* DIKU 1-0-22
+* DIKU 1-0-30
+* DIKU 1-0-34
+* DIKU 1-0-37
+
+Wednesday 15-17
+* Main room
+  * DIKU Bib 4-0-17
+* Breakout rooms
+  * 
+  * 
+
+Friday 14-16
+* HCØ A107
+* HCØ A110
+* HCØ A111
+* HCØ A112
+
 
 ## Study ambassadors
 The second year study ambassadors will can help you find a find a groups, if you are missing one. They can also be the link to the study administration; if there is something you are in doubt about and feel better to ask a fellow student, they are available.
