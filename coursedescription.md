@@ -51,7 +51,7 @@ It is also important to note, that the main purpose of the assignment is _not_ t
 
  * Mondays at 13-15 in St. UP1
  * Wednesdays at 10-12 in St. UP1
- * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and [Someone unknown at the moment]
+ * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Troels Langkjær
 
 ## Exercise Classes and Cafées
 
