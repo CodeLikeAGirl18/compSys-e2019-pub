@@ -1,12 +1,12 @@
-# OS X tools -- Roll Your Own Toolchain
+# macOS tools -- Roll Your Own Toolchain
 
 ## Homebrew
-Homebrew is a package manager (similar to apt on Linux) that contain ports of many Linux programs. (When you get a new Mac, this should be the first program to install, as it is the most useful.)
+Homebrew is a package manager (similar to apt on Linux) that contain ports of many Linux programs. When you get a new Mac, this should be the first program to install, as it is the most useful.
 
 Install Homebrew ([http://brew.sh/](http://brew.sh/))
 
 ## GCC
-As standard OS X is setup for using Clang and has even linked `gcc` to run `clang`. We recommend changing it to gcc. The easiest way is the following:
+As standard macOS is setup for using Clang and has even linked `gcc` to run `clang`. We recommend changing it to gcc. The easiest way is the following:
 
 type
 
@@ -22,7 +22,7 @@ First time Homebrew will install many needed programs (including compiling them 
 Previous setup is obsolete and will be updated. If you have a description, please contact me.
 <!-- NOTE: The following is abo
 
-To use gdb on OS X you need it to be code signed.
+To use gdb on macOS you need it to be code signed.
 
 You can find an explanation of how to do it here:
   * [https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154](https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154)
