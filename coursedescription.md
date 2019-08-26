@@ -77,21 +77,24 @@ It is also important to note, that the main purpose of the assignment is _not_ t
 
 ### Room details
 
-* AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
+* AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
 * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
 * DIKU, No further explanation needed
-* NEXS, Nørre Alle 51, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
+* NEXS, Nørre Alle 51-53, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
+* NBB, Niels Bohr Building, Jagtvej 128 (other side of Jagtvej)
+* HCØ, Aud 7 is 1st floor in Vandrehallen
 
 #### Blok 1
 
 Monday 15-17
 * DIKU 3-1-25
-* Biocenter 2-2-07/09
-* Biocenter 4-0-02
+* NBB 1.H.142
+* HCØ Aud 07
+* Biocenter, 2-2-07/09
 * Biocenter 4-0-05
-* Biocenter 4-0-10
-* Biocenter 4-0-32
-* NEXS Auditorium Nord
+* AB Teori 2
+* NEXS Auditorium Nord, Nørre Alle 51
+* NEXS Karnapsalen, Nørre Alle 53
 
 Wednesday 13-15
 * DIKU 1-0-04
