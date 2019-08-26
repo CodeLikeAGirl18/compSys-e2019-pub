@@ -133,8 +133,8 @@ Monday 15-17
 * DIKU 1-0-14
 * DIKU 1-0-18
 * DIKU 1-0-22
+* DIKU 1-0-26
 * DIKU 1-0-30
-* DIKU 1-0-34
 * DIKU 1-0-37
 
 Wednesday 13-15
