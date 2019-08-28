@@ -51,6 +51,7 @@ It is also important to note, that the main purpose of the assignment is _not_ t
 
  * Mondays at 13-15 in St. UP1
  * Wednesdays at 10-12 in St. UP1
+   * Note, lecture on Nov 6 have been moved to Friday Nov 8
  * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Troels Langkjær
 
 ## Exercise Classes and Cafées
@@ -59,11 +60,13 @@ It is also important to note, that the main purpose of the assignment is _not_ t
    * These classes are dedicated to exercises.
  * Wednesdays 13-15
    * These classes are dedicated to exercises.
+   * Note, cancelled on Nov 6
  * Wednesdays 15-17
    * This sessions have a café structure and are dedicated to help with assignments and other open questions.
+   * Note, cancelled on Nov 6
  * Fridays 14-16
    * TA organised café classes for help with assignments and exercises.
-<!-- Not all sessions will be held and some can be changed to guest talks. See course plan for details. Held in: -->
+   * Note, Nov 8 will be extended to 13-17
 
 ### TAs
  * Anders Holst
