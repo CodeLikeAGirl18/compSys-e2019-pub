@@ -47,14 +47,30 @@ To qualify for the exam, a minimum number of points must be gained through the a
 
 It is also important to note, that the main purpose of the assignment is _not_ to prepare you for the exam; that is what the exercise classes are for. The assignments will focus on larger implementations and the practical learning goals of the course. Some questions in the exam will relate to the assignments, but qualifying of the exam (and even fully solving the assignments) will not be enough preparation to pass the exam. You need to make the exercises and the best way is to come to the exercise classes.
 
+## Manning
+Instructors:
+ * Michael Kirkedal Thomsen (instructor-in-charge)
+ * Finn Schirmer Andersen
+ * Troels Henriksen
+ * Troels Langkjær
+
+TAs:
+ * Anders Holst
+ * Daniel Alstrup
+ * Eva Kroon Enevoldsen
+ * Jens Kanstrup Larsen
+ * Jonas Flach-Jensen
+ * Kristian Bøjer Andreasen
+ * Magnus Joensen
+ * Æmilie Bom Cholewa-Madsen
+
 ## Lectures
 
  * Mondays at 13-15 in St. UP1
  * Wednesdays at 10-12 in St. UP1
    * Note, lecture on Nov 6 have been moved to Friday Nov 8
- * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Troels Langkjær
 
-## Exercise Classes and Cafées
+## Exercise Classes
 
  * Mondays 15-17
    * These classes are dedicated to exercises.
@@ -68,47 +84,81 @@ It is also important to note, that the main purpose of the assignment is _not_ t
    * TA organised café classes for help with assignments and exercises.
    * Note, Nov 8 will be extended to 13-17
 
-### TAs
- * Anders Holst
- * Daniel Alstrup
- * Eva Kroon Enevoldsen
- * Jens Kanstrup Larsen
- * Jonas Flach-Jensen
- * Kristian Bøjer Andreasen
- * Æmilie Bom Cholewa-Madsen
- * [Someone]
-
 ### Room details
 
-* AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
-* Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
-* DIKU, No further explanation needed
-* NEXS, Nørre Alle 51-53, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
-* NBB, Niels Bohr Building, Jagtvej 128 (other side of Jagtvej)
-* HCØ, Aud 7 is 1st floor in Vandrehallen
+ * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
+ * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
+ * DIKU, No further explanation needed
+ * NEXS, Nørre Alle 51-53, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
+ * NBB, Niels Bohr Building, Jagtvej 128 (other side of Jagtvej)
+ * HCØ, Aud 7 is 1st floor in Vandrehallen
 
-#### Blok 1
+### Hold 1
+_Æmilie Bom Cholewa-Madsen_
 
-Monday 15-17
-* DIKU 3-1-25
-* NBB 1.H.142
-* HCØ Aud 07
-* Biocenter, 2-2-07/09
-* Biocenter 4-0-05
-* AB Teori 2
-* NEXS Auditorium Nord, Nørre Alle 51
-* NEXS Karnapsalen, Nørre Alle 53
+* Blok 1
+  * Mon 15-17: HCØ Aud 07
+  * Wed 13-15: DIKU 1-0-34
 
-Wednesday 13-15
-* DIKU 1-0-04
-* DIKU 1-0-10
-* DIKU 1-0-14
-* DIKU 1-0-18
-* DIKU 1-0-22
-* DIKU 1-0-30
-* DIKU 1-0-34
-* DIKU 1-0-37
+### Hold 2
+_Jens Kanstrup Larsen_
 
+* Blok 1
+  * Mon 15-17: Biocenter, 2-2-07/09
+  * Wed 13-15: DIKU 1-0-22
+
+### Hold 3
+_Daniel Alstrup_
+
+* Blok 1
+  * Mon 15-17: NEXS Karnapsalen, Nørre Alle 53
+  * Wed 13-15: DIKU 1-0-30
+
+### Hold 4
+_Magnus Joensen_
+
+* Blok 1
+  * Mon 15-17: Biocenter 4-0-05
+  * Wed 13-15: DIKU 1-0-14
+
+### Hold 5
+_Eva Kroon Enevoldsen_
+
+* Blok 1
+  * Mon 15-17: NBB 1.H.142
+  * Wed 13-15: DIKU 1-0-10
+
+### Hold 6
+_Jonas Flach-Jensen_
+
+* Blok 1
+  * Mon 15-17: DIKU 3-1-25
+  * Wed 13-15: DIKU 1-0-18
+
+### Hold 7
+_Anders Holst_
+
+* Blok 1
+  * Mon 15-17: AB Teori 2
+  * Wed 13-15: DIKU 1-0-37
+
+### Hold 8
+_Kristian Bøjer Andreasen_
+
+* Blok 1
+  * Mon 15-17: NEXS Auditorium Nord, Nørre Alle 51
+  * Wed 13-15: DIKU 1-0-04
+
+#### Blok 2
+Will be assigned later...
+
+Monday 15-17: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, DIKU 1-0-26, DIKU 1-0-30, and DIKU 1-0-37.
+
+Wednesday 13-15: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, DIKU 1-0-30, DIKU 1-0-34, and DIKU 1-0-37.
+
+## Cafées
+
+### Blok 1
 Wednesday 15-17
 * Main room
   * DIKU Li UP1
@@ -128,34 +178,11 @@ Friday 14-16
   * HCØ A111
   * HCØ A112
 
-#### Blok 2
-
-Monday 15-17
-* DIKU 1-0-04
-* DIKU 1-0-10
-* DIKU 1-0-14
-* DIKU 1-0-18
-* DIKU 1-0-22
-* DIKU 1-0-26
-* DIKU 1-0-30
-* DIKU 1-0-37
-
-Wednesday 13-15
-* DIKU 1-0-04
-* DIKU 1-0-10
-* DIKU 1-0-14
-* DIKU 1-0-18
-* DIKU 1-0-22
-* DIKU 1-0-30
-* DIKU 1-0-34
-* DIKU 1-0-37
-
+### Blok 2
 Wednesday 15-17
 * Main room
   * DIKU Bib 4-0-17
-* Breakout rooms
-  * 
-  * 
+* Breakout rooms: ...
 
 Friday 14-16
 * HCØ A107
