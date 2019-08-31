@@ -78,7 +78,7 @@ TAs:
    * These classes are dedicated to exercises.
    * Note, cancelled on Nov 6
 
-### Team
+### Teams
 * Hold 1: _Æmilie Bom Cholewa-Madsen_
   * Blok 1
     * Mon 15-17: HCØ Aud 07
@@ -171,7 +171,8 @@ Friday 14-16
 ## Study ambassadors
 The second year study ambassadors will can help you find a find a groups, if you are missing one. They can also be the link to the study administration; if there is something you are in doubt about and feel better to ask a fellow student, they are available.
 
-The study ambassadors are: Not decided yet.
+The study ambassadors are:
+* Mathias Graae Larsen <cala@di.ku.dk>
 
 
 ## Teaching Material
