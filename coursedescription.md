@@ -77,77 +77,48 @@ TAs:
  * Wednesdays 13-15
    * These classes are dedicated to exercises.
    * Note, cancelled on Nov 6
- * Wednesdays 15-17
-   * This sessions have a café structure and are dedicated to help with assignments and other open questions.
-   * Note, cancelled on Nov 6
- * Fridays 14-16
-   * TA organised café classes for help with assignments and exercises.
-   * Note, Nov 8 will be extended to 13-17
+
+### Team
+* Hold 1: _Æmilie Bom Cholewa-Madsen_
+  * Blok 1
+    * Mon 15-17: HCØ Aud 07
+    * Wed 13-15: DIKU 1-0-34
+* Hold 2: _Jens Kanstrup Larsen_
+  * Blok 1
+    * Mon 15-17: Biocenter, 2-2-07/09
+    * Wed 13-15: DIKU 1-0-22
+* Hold 3: _Daniel Alstrup_
+  * Blok 1
+    * Mon 15-17: NEXS Karnapsalen, Nørre Alle 53
+    * Wed 13-15: DIKU 1-0-30
+* Hold 4: _Magnus Joensen_
+  * Blok 1
+    * Mon 15-17: Biocenter 4-0-05
+    * Wed 13-15: DIKU 1-0-14
+* Hold 5: _Eva Kroon Enevoldsen_
+  * Blok 1
+    * Mon 15-17: NBB 1.H.142
+    * Wed 13-15: DIKU 1-0-10
+* Hold 6: _Jonas Flach-Jensen_
+  * Blok 1
+    * Mon 15-17: DIKU 3-1-25
+    * Wed 13-15: DIKU 1-0-18
+* Hold 7: _Anders Holst_
+  * Blok 1
+    * Mon 15-17: AB Teori 2
+    * Wed 13-15: DIKU 1-0-37
+* Hold 8: _Kristian Bøjer Andreasen_
+  * Blok 1
+    * Mon 15-17: NEXS Auditorium Nord, Nørre Alle 51
+    * Wed 13-15: DIKU 1-0-04
 
 ### Room details
-
  * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
  * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
  * DIKU, No further explanation needed
  * NEXS, Nørre Alle 51-53, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
  * NBB, Niels Bohr Building, Jagtvej 128 (other side of Jagtvej)
  * HCØ, Aud 7 is 1st floor in Vandrehallen
-
-### Hold 1
-_Æmilie Bom Cholewa-Madsen_
-
-* Blok 1
-  * Mon 15-17: HCØ Aud 07
-  * Wed 13-15: DIKU 1-0-34
-
-### Hold 2
-_Jens Kanstrup Larsen_
-
-* Blok 1
-  * Mon 15-17: Biocenter, 2-2-07/09
-  * Wed 13-15: DIKU 1-0-22
-
-### Hold 3
-_Daniel Alstrup_
-
-* Blok 1
-  * Mon 15-17: NEXS Karnapsalen, Nørre Alle 53
-  * Wed 13-15: DIKU 1-0-30
-
-### Hold 4
-_Magnus Joensen_
-
-* Blok 1
-  * Mon 15-17: Biocenter 4-0-05
-  * Wed 13-15: DIKU 1-0-14
-
-### Hold 5
-_Eva Kroon Enevoldsen_
-
-* Blok 1
-  * Mon 15-17: NBB 1.H.142
-  * Wed 13-15: DIKU 1-0-10
-
-### Hold 6
-_Jonas Flach-Jensen_
-
-* Blok 1
-  * Mon 15-17: DIKU 3-1-25
-  * Wed 13-15: DIKU 1-0-18
-
-### Hold 7
-_Anders Holst_
-
-* Blok 1
-  * Mon 15-17: AB Teori 2
-  * Wed 13-15: DIKU 1-0-37
-
-### Hold 8
-_Kristian Bøjer Andreasen_
-
-* Blok 1
-  * Mon 15-17: NEXS Auditorium Nord, Nørre Alle 51
-  * Wed 13-15: DIKU 1-0-04
 
 #### Blok 2
 Will be assigned later...
@@ -157,6 +128,12 @@ Monday 15-17: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, D
 Wednesday 13-15: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, DIKU 1-0-30, DIKU 1-0-34, and DIKU 1-0-37.
 
 ## Cafées
+ * Wednesdays 15-17
+   * This sessions have a café structure and are dedicated to help with assignments and other open questions.
+   * Note, cancelled on Nov 6
+ * Fridays 14-16
+   * TA organised café classes for help with assignments and exercises.
+   * Note, Nov 8 will be extended to 13-17
 
 ### Blok 1
 Wednesday 15-17
