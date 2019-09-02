@@ -113,6 +113,9 @@ TAs:
     * Wed 13-15: DIKU 1-0-04
 
 ### Room details
+Map of Nørre Campus:
+https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
+
  * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/kort_2012_a4.pdf
  * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
  * DIKU, No further explanation needed
