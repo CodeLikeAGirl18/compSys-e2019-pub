@@ -61,6 +61,12 @@ Reminder: Consider how strings are formatted in C.
 Note: reuse your argument validation from before. You can just as well
 learn it from the beginning. _Always sanitise your input._
 
+## Multiple input formats
+
+Modify the `dice` program developed at lecture to support `dN` as
+alternative notation for `1dN`.  Hint: if one `sscanf()` fails, try
+another.
+
 ## Guessing game
 
 Write a C program that on startup generates a random number with
