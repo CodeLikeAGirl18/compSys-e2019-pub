@@ -85,11 +85,11 @@ TAs:
     * Wed 13-15: DIKU 1-0-34
 * Hold 2: _Jens Kanstrup Larsen_
   * Blok 1
-    * Mon 15-17: Biocenter, 2-2-07/09
+    * Thur 13-15: DIKU 1-0-22
     * Wed 13-15: DIKU 1-0-22
 * Hold 3: _Daniel Alstrup_
   * Blok 1
-    * Mon 15-17: NEXS Karnapsalen, Nørre Alle 53
+    * Mon 15-17: Biocenter, 2-2-07/09
     * Wed 13-15: DIKU 1-0-30
 * Hold 4: _Magnus Joensen_
   * Blok 1
