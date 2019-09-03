@@ -1,14 +1,14 @@
 # Exercises for 2019-09-04
 
-## File printing
-
-Write a C program `fileecho` that given a filename opens the file in
-read-only mode, reads its content and prints it.
-
 ## File check
 
 Write a C program `fileexist` that given a filename checks if it can
 read the file and prints a reasonable status message.
+
+## File printing
+
+Write a C program `fileecho` that given a filename opens the file in
+read-only mode, reads its content and prints it.
 
 ## File content validation
 
