@@ -85,7 +85,7 @@ TAs:
     * Wed 13-15: DIKU 1-0-34
 * Hold 2: _Jens Kanstrup Larsen_
   * Blok 1
-    * Thur 13-15: DIKU 1-0-22
+    * Tue 13-15: DIKU 1-0-22
     * Wed 13-15: DIKU 1-0-22
 * Hold 3: _Daniel Alstrup_
   * Blok 1
