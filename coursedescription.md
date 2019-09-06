@@ -172,10 +172,11 @@ Friday 14-16
 
 
 ## Study ambassadors
-The second year study ambassadors will can help you find a find a groups, if you are missing one. They can also be the link to the study administration; if there is something you are in doubt about and feel better to ask a fellow student, they are available.
+The second year study ambassadors will can help you find a find a groups, if you are missing one. They can also be the link to the study administration; if there is something you are in doubt about and feel better to ask a fellow student, they are available. One of them will always be available at the Friday cafées.
 
 The study ambassadors are:
 * Mathias Graae Larsen <cala@di.ku.dk>
+* Duc Minh Tran <minh@di.ku.dk>
 
 
 ## Teaching Material
