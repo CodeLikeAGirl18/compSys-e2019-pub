@@ -29,7 +29,7 @@ or similar, you need to enter your BIOS setup and update this. This is very arch
 ## The VM image
 On the following link you find the image from CompSys 2017. You can use now this to test your workflow, but it also works with for our basic needs. We will later provide an updated image with the relevant tools.
 
-[03.09.2019] http://topps.diku.dk/compsys/compSys19-debian-v1.0-64bit.ova
+[03.09.2019] http://topps.diku.dk/compsys/compSys19-v1.0-debian-64bit.ova
 
 
 The VM has the following credentials:
