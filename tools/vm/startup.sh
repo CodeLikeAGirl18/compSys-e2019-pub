@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-VBoxManage startvm compSys18 --type headless
+VBoxManage startvm compSys19 --type headless
