@@ -32,4 +32,3 @@ We recommend to investigate in the following order:
 
 Integers are by now way too easy. Don't miss the [Floating point
 game](https://games.onlineta.org/floating-point.html).
-
