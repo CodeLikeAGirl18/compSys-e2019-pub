@@ -19,4 +19,12 @@ These exercises will:
 * BOH 3.11 (page 233)
 
 ### More compilation quirks
-`a_sum.c` is a simple function calculating five times the sum of a `0` terminated list of `long`s using pointer arithmetic. Using `gcc` this is translated into the assembler code in `a_sum.s`. Locate the non-control statements of `a_sum.c` (lines 4, 5, 7, 8 and 9) in `a_sum.s`. For each, what differs from the expected translation and try to consider why? Remember that input registers are `%rdi`, `%rsi`, etc. and output is `%rax` only.
+`a_sum.c` is a simple function calculating five times the sum of a `0` terminated list of `long`s using pointer arithmetic. Using `x86prime`, this is translated into x86prime assembly code in `a_sum.prime`. 
+* Locate the non-control statements of `a_sum.c` (lines 4, 5, 7, 8 and 9) in `a_sum.prime`. For each, what differs from the expected translation and try to consider why?
+
+Remember that:
+  - function parameter registers are `%rdi`, `%rsi`, and so on (BOH p. 216).
+  - return value register is `%rax` (BOH p. 216).
+  - in x86prime, %r11 is the return address register.
+
+Note: for now, please ignore lines 3-4 and 15-16 of `a_sum.prime`, as these instructions relate to the stack pointer, which we will save for later.
