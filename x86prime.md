@@ -81,12 +81,12 @@ Like with x86_64 `movq` are the instruction for loading and storing data. Howeve
 
 | Instruction     | Description                |
 | --------------- | -----------                |
-| movq s,d        | reg->reg copy              |
-| movq (s),d      | load (memory -> reg copy)  |
-| movq d,(s)      | store (reg -> memory copy) |
-| movq $i,d       | constant -> register       |
-| movq i(s),d     | load (memory -> reg copy)  |
-| movq d,i(s)     | store (reg -> memory copy) |
+| `movq s,d`      | reg->reg copy              |
+| `movq (s),d`    | load (memory -> reg copy)  |
+| `movq d,(s)`    | store (reg -> memory copy) |
+| `movq $i,d`     | constant -> register       |
+| `movq i(s),d`   | load (memory -> reg copy)  |
+| `movq d,i(s)`   | store (reg -> memory copy) |
 
 
 ## Conditional and unconditional jumps
