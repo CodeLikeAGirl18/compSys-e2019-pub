@@ -9,12 +9,12 @@ The instruction set x86prime has been designed to be an interesting subset of x8
 In the following we will describe the instruction set of x86prime and its difference to x86.
 However, the following text is _not_ as stand-alone text. It will not describe the detailed semantics of the instructions and we refer to other texts for this. But with a basic knowledge about instructions, you will be safe.
 
-For more information about x86prime we can also refer you to:
+<!-- For more information about x86prime we can also refer you to:
 
 * [README](README.md) for information about the different x86prime tools and how to set them up,
 * [Encoding](encoding.txt) that explains how x86prime assembly code are encoded into machine code, and
 * [Execution plot](afviklingsplot.md) that explains how x86prime instructions are progressing though different stages pipelined architectures.
-
+ -->
 ## Register names
 The resister names are the expected from x86_64 and the special purpose use are kept, with one noticeable change. we advise not to use `%r14` as it is used for procedure calls (see later).
 
@@ -48,15 +48,15 @@ Remember the leading `$` before the constant.
 
 In the above `op` can be one of the following operations:
 
-* `add`: addition
-* `sub`: subtraction
-* `and`: bitwise and
-* `or `: bitwise or
-* `xor`: bitwise xor
-* `mul`: multiplication
-* `sar`: shift arithmetic right (preserve topmost bit)
-* `sal`: shift arithmetic left (zero into lsb, do not preserve topmost bit)
-* `shr`: shift (logical) right (zero into topmost bit)
+* `addq`: addition
+* `subq`: subtraction
+* `andq`: bitwise and
+* `orq `: bitwise or
+* `xorq`: bitwise xor
+* `mulq`: multiplication
+* `sarq`: shift arithmetic right (preserve topmost bit)
+* `salq`: shift arithmetic left (zero into lsb, do not preserve topmost bit)
+* `shrq`: shift (logical) right (zero into topmost bit)
 
 ### Load effective address
 Load effective address (lea) is a special x86 instruction. It is we was, as the name says, historically meant as an easy way of calculating addresses without reading from memory; hence do pointer arithmetic as in know from C. However, today it is also widely used by compilers do perform standard arithmetic. We have therefore also opted to include it in x86prime.
