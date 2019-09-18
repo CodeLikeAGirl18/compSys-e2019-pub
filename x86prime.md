@@ -66,7 +66,7 @@ leaq can be used in the following ways:
 | Instruction       | Semantics                | Description                                    |
 | ---------------   | ------------------------ | -----------                                    |
 | `leaq (s),d`      | `s` -> `d`               | Copy value from register `s` to register `d`   |
-| `leaq (,z,v),d`   | `z`*`v` -> `d`           | Scale register `z` by 2^`v` before copy to `d` |
+| `leaq (,z,v),d`   | `z`*`v` -> `d`           | Scale register `z` by `v` before copy to `d`   |
 | `leaq (s,z,v),d`  | `s`+`z`*`v` -> `d`       | Scale and sum                                  |
 | `leaq i,d`        | `i` -> `d`               | Get a constant                                 |
 | `leaq i(s),d`     | `i`+`s` -> `d`           | Add a constant                                 |
