@@ -1,8 +1,12 @@
-long p(long *args, long disp) {
-    long* start = args;
-    while (*args > 0) {
-        *args += disp;
-        args++;
-    }
-    return args-start;
+
+long power(long n, long p) {
+  long res;
+  if (p == 1) {
+    res = 1;
+  }
+  else {
+    res = power(n, p-1);
+  }
+  res *= n;
+  return res;
 }
