@@ -1,4 +1,4 @@
-p:
+power:
     subq $16, %rsp
     movq %r11, 8(%rsp)
     movq %rbx, (%rsp)
