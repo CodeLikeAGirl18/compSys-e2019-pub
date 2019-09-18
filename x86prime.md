@@ -161,5 +161,5 @@ procedure:
 
 Note that x86prime does not have instructions for pushing and popping the stack, so this has to be done by two instructions.
 
-Also, if `%r11` is not used inside the procedure body, these four instruction can be removed; however this is not done by the current translation.
+Also, if `%r11` is not used inside the procedure body, these four instructions can be removed; however this is not done by the current translation.
 
