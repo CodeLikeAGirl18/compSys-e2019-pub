@@ -51,7 +51,6 @@ Below I will use a mixed C/x86prime programming style and remove lines as I tran
 12      cbl $0, %rdx, .L3
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
 
 }
@@ -81,7 +80,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 12      cbl $0, %rdx, .L3
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
 
 }
@@ -121,7 +119,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 12      cbl $0, %rdx, .L3
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
 
 }
@@ -150,7 +147,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 12      cbl $0, %rdx, .L3
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
 
 }
@@ -182,7 +178,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 12      cbl $0, %rdx, .L3     # Jump back, hence there is a loop body
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
 
 }
@@ -206,9 +201,7 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
-
 }
 ```
 
@@ -234,9 +227,7 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
-
 }
 ```
 
@@ -261,9 +252,7 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
-
 }
 ```
 
@@ -286,9 +275,7 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 
 13      subq %rdi, %rax
 14      sarq $3, %rax
-
 17      ret
-
 }
 ```
 
@@ -316,7 +303,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 13      subq %rdi, %rax
 14      sarq $3, %rax
 17      ret
-
 }
 ```
 
@@ -342,7 +328,6 @@ I rename all my `%rdi` for `a1` and for the moment add name scopes in curly brac
 
 {%rax -> tmp3}
 17      ret
-
 }
 ```
 
@@ -367,7 +352,7 @@ long p (long *a1, long a2) {
 ```
 
 #### The program
-This is the program I used to generate the assembly code. At a glance it looks significantly different from the above, but can be rewritten to look similar. Mainly not that `tmp2` is always equal to the value that `tmp1` points to.
+This is the program I used to generate the assembly code. At a glance it looks significantly different from the above, but can be rewritten to look similar. Mainly note that `tmp2` is always equal to the value that `tmp1` points to.
 
 Shifts each element in a 0-terminated array with a given number and returns the number of elements in the array:
 
