@@ -92,7 +92,7 @@ Lav en tabel over de forskellige instruktioner og angiv for hver af dem, hvilken
 
 ## Opgave 5
 
-Multiplexoren "Result-Select" vælger mellem 3 forskellige kilder.
+Multiplexoren "Result-Select" vælger mellem 7 forskellige kilder.
 
 Spg 1: Hvilken funktion har "Result-Select" ?
 
