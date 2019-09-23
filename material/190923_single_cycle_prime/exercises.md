@@ -1,13 +1,13 @@
 # Opgaver til 23/9-2019
 
-Se også [Reading Material](readingMaterial.md) og anbefalinger til [Tool setup](tools.md).
+Se også [Reading Material](readingMaterial.md).
 
 ## Opgave 1
 
 Få installeret x86prime. Hvis du kører Windows eller Mac skal du formodentlig have
 fat i en virtuel maskine med Linux. 
 
-Se også https://github.com/finnschiermer/x86prime
+Se følgende anbefalinger [Tool setup](tools.md).
 
 ## Opgave 2
 
