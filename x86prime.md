@@ -53,7 +53,8 @@ In the above `op` can be one of the following operations:
 * `andq`: bitwise and
 * `orq `: bitwise or
 * `xorq`: bitwise xor
-* `mulq`: multiplication
+* `mulq`: signed multiplication
+* `imulq`: unsigned multiplication
 * `sarq`: shift arithmetic right (preserve topmost bit)
 * `salq`: shift arithmetic left (zero into lsb, do not preserve topmost bit)
 * `shrq`: shift (logical) right (zero into topmost bit)
