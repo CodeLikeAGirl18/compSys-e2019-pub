@@ -20,7 +20,7 @@ https://www.virtualbox.org/
 On newer macbooks the installation can fail. In that case you need to the Security & Privacy setting and give the installation program full permissions.
 
 ### Virtualisation Technology
-For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. It you get the error 
+For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. If you get the error 
 
 ```
 VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)
