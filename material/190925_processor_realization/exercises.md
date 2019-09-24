@@ -9,7 +9,7 @@ Referencer til slides, er til slides fra 23/9 og 25/9
 
 Antag at multiplexorne nederst til venstre på figuren over
 single cycle x86Prime mikroarkitektur er implementeret efter
-samme princip som illustreret på slide 8 fra 25/9.
+samme princip som illustreret på slide 11 fra 25/9.
 
 Hvor mange styre-ledninger skal der trækkes til hver mux?
 
