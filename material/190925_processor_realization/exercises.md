@@ -47,4 +47,3 @@ rette sted (hint: det er noget med en mux)
 
 Er der brug for ET eller TO sådanne kredsløb i mikroarkitekturen?
 Begrund svaret.
-
