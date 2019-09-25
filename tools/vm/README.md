@@ -102,7 +102,7 @@ The basic idea here is:
  * Compile and execute your code on the VM (logged-in terminal)
  * You should still use git on your machine to share with your group
 
-This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login".
+This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login". __THIS IS VERY IMPORTANT__
 
 First you need to setup which directory that you want to have mounted on the VM. You do this by calling
 
