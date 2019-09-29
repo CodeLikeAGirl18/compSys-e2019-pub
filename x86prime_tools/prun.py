@@ -10,6 +10,8 @@ parser.add_argument('prg', metavar='program',
 parser.add_argument('-show', dest='show', action='store_const',
                     const=True, default=False,
                     help='show simulation')
+parser.add_argument('-tracefile', dest='trace',
+                    help='Write trace to this file')
 
 args = parser.parse_args()
 
@@ -52,7 +54,7 @@ file.close()
 # x86prime Online location
 URL = "http://topps.diku.dk/compsys/prun.php"
 # defining a params dict for the parameters to be sent to the API
-DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "show":args.show}
+DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "show":args.show, "trace":args.trace}
 # sending get request and saving the response as response object
 r = requests.post(url = URL, data = DATA)
 
@@ -69,8 +71,16 @@ if error.text != "":
   print(error.text)
   exit()
 else:
-  # if success write the output to file in same dir as input file
-  # This is the behaviour of primify, though not the best.
-  extenstion_to_get = "sim"
-  output = requests.get(url = URLDIR+runid+"."+extenstion_to_get)
-  print(output.text)
+  if args.show == True:
+    # if success write the output to file in same dir as input file
+    # This is the behaviour of primify, though not the best.
+    extenstion_to_get = "sim"
+    output = requests.get(url = URLDIR+runid+"."+extenstion_to_get)
+    print(output.text)
+
+  if args.trace != None:
+    # Write trace
+    trace = requests.get(url = URLDIR+runid+".trc")
+    file = open(args.trace, 'w')
+    args.fileCont = file.write(trace.text)
+    file.close()

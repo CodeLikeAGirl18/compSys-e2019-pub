@@ -20,7 +20,7 @@ https://www.virtualbox.org/
 On newer macbooks the installation can fail. In that case you need to the Security & Privacy setting and give the installation program full permissions.
 
 ### Virtualisation Technology
-For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. It you get the error 
+For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. If you get the error 
 
 ```
 VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)
@@ -102,7 +102,7 @@ The basic idea here is:
  * Compile and execute your code on the VM (logged-in terminal)
  * You should still use git on your machine to share with your group
 
-This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login".
+This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login". __THIS IS VERY IMPORTANT__
 
 First you need to setup which directory that you want to have mounted on the VM. You do this by calling
 
