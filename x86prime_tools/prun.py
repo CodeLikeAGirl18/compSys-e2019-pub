@@ -5,7 +5,7 @@ import argparse
 import requests
 import functools
 
-parser = argparse.ArgumentParser(description='Simulates x86prime machine code\', simulate.')
+parser = argparse.ArgumentParser(description='Simulates x86prime machine code.\n  Be aware that this script cannot take inputs from stdin. However is does support command-line arguments.\n  Execution time is limited to 5 minutes.')
 parser.add_argument('file', metavar='hex-file',
                     help='file with x86prime machine code to simulate')
 parser.add_argument('prg', metavar='program',
