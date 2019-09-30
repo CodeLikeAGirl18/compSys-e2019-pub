@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 
-import sys, re, os, mimetypes, argparse, requests
+import sys, re, os, mimetypes
+import argparse
+import requests
+import functools
 
 parser = argparse.ArgumentParser(description='Simulates x86prime machine code\', simulate.')
 parser.add_argument('file', metavar='hex-file',
                     help='file with x86prime machine code to simulate')
 parser.add_argument('prg', metavar='program',
                     help='top program')
+parser.add_argument('args',
+                      # action='store',
+                      help='Arguments to program',
+                      nargs='*', type=int)
 parser.add_argument('-show', dest='show', action='store_const',
                     const=True, default=False,
                     help='show simulation')
@@ -53,15 +60,18 @@ file.close()
 
 # x86prime Online location
 URL = "http://topps.diku.dk/compsys/prun.php"
+# Args as string
+strargs = functools.reduce((lambda x, y: x+" "+str(y)), args.args, "")
 # defining a params dict for the parameters to be sent to the API
-DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "show":args.show, "trace":args.trace}
+DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "show":args.show, "trace":args.trace, "args":strargs}
 # sending get request and saving the response as response object
 r = requests.post(url = URL, data = DATA)
 
 # location of results
 URLDIR = "http://topps.diku.dk/compsys/x86prime_runs/"
-# extracting data in json format
-runid = r.text
+# extracting data in json format, only first line
+runid = r.text.split('\n', 1)[0]
+# print(r.text) # Debug
 
 # get possible error code from execution
 error = requests.get(url = URLDIR+runid+".error")
