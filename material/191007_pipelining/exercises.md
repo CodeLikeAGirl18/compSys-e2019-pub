@@ -50,12 +50,10 @@ i X på selve den værdi der skal skrives til lageret.
 
 Gentegn afviklingsplottet ovenfor under hensyntagen til denne ændring.
 
-
 ## Spg 2:
 
 Hvor mange clock-cyklusser (sic) tager hvert gennemløb af løkken. Udvid eventuelt figuren
 med instruktioner fra efterfølgende gennemløb, indtil du er sikker på dit svar.
-
 
 ## Spg 3:
 
@@ -66,8 +64,7 @@ Vis den optimerede kode og tegn det tilsvarende afviklingsplot der viser hvordan
 i pipelinen. Hvor meget hurtigere er din optimerede kode?
 
 
-# Ekstra Cache opgaver, hvis der er tid
+# Ekstra Cache-opgaver, hvis der er tid
 
 * PP 6.11 p. 660
 * PP 6.18 p. 673
-
