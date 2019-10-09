@@ -31,6 +31,26 @@ Loop:
 Done:
 ~~~
 
+- burde plottet ikke se sådan her ud? 
+- man har kun et mem-stadie, men her er M også midterste
+  del af mult. burde man ikke have to mult-midterstadier?
+~~~
+Loop:
+    movq (%r10),%r11    FDXMW
+    cbe $0,%r11,Done    FDXXX
+    multq %r12,%r11      FDXXMYW
+    movq %r11,(%r10)     FDDDXXXM
+    addq $8,%r10          FDDXW
+    jmp Loop               FFDX
+    movq (%r10),%r11         FFDXMW
+    cbe $0,%r11,Done          FDXXX
+    multq %r12,%r11            FDXXMYW
+    movq %r11,(%r10)           FDDDXXXM
+    addq $8,%r10                FDDXW
+    jmp Loop                     FFDX
+Done:
+~~~
+
 Bogstaverne til højre viser hver instruktions passage gennem pipelinen.
 Betydningen af bogstaverne er:
 
@@ -42,7 +62,7 @@ Betydningen af bogstaverne er:
  * W: Writeback, opdatering af registre
 
 Alle instruktioner passerer gennem de samme 6 trin. Multiplikation udføres over 3 pipeline-trin,
-E, M og Y. Et ubetinget hop udføres i D-trinnet, dvs den instruktion der hoppes til kan blive
+X, M og Y. Et ubetinget hop udføres i D-trinnet, dvs den instruktion der hoppes til kan blive
 hentet i cyklussen efter. Et betinget hop udføres derimod først i X-trinnet.
 
 Der er fuld forwarding af operander fra en instruktion til en afhængig instruktion.
@@ -55,6 +75,17 @@ De skal stadig vente i D på operander til adresseberegning, men skal først ven
 i X på selve den værdi der skal skrives til lageret.
 
 Gentegn afviklingsplottet ovenfor under hensyntagen til denne ændring.
+
+~~~
+Loop:
+    movq (%r10),%r11    FDXMYW
+    cbe $0,%r11,Done    FDDDXMYW
+    multq %r12,%r11      FDDXMYW
+    movq %r11,(%r10)     FFFDXXXMYW
+    addq $8,%r10          FFDXMYW
+    jmp Loop                FDXMYW
+Done:
+~~~
 
 ## Spg 2:
 
