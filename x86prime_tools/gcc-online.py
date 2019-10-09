@@ -24,8 +24,12 @@ parser.add_argument('-Wextra', dest='Wextra', action='store_const',
 parser.add_argument('-Wall', dest='Wall', action='store_const',
                     const=True, default=False,
                     help='')
+parser.add_argument('-fno-optimize-sibling-calls', dest='osc', action='store_const',
+                    const=True, default=False,
+                    help='')
 parser.add_argument('file', metavar='C-file',
                     help='translates and assembles file')
+
 
 
 args = parser.parse_args()
@@ -48,7 +52,7 @@ file.close()
 # x86prime Online location
 URL = "http://topps.diku.dk/compsys/gcc.php"
 # defining a params dict for the parameters to be sent to the API
-DATA = {'file':args.fileCont, "Wall":args.Wall, "Wextra":args.Wextra, "Winline":args.Winline, "pedantic":args.pedantic}
+DATA = {'file':args.fileCont, "Wall":args.Wall, "Wextra":args.Wextra, "Winline":args.Winline, "pedantic":args.pedantic, "osc":args.osc}
 # sending get request and saving the response as response object
 r = requests.post(url = URL, data = DATA)
 
