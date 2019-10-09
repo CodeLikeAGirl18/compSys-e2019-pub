@@ -31,26 +31,6 @@ Loop:
 Done:
 ~~~
 
-- burde plottet ikke se sådan her ud? 
-- man har kun et mem-stadie, men her er M også midterste
-  del af mult. burde man ikke have to mult-midterstadier?
-~~~
-Loop:
-    movq (%r10),%r11    FDXMW
-    cbe $0,%r11,Done    FDXXX
-    multq %r12,%r11      FDXXMYW
-    movq %r11,(%r10)     FDDDXXXM
-    addq $8,%r10          FDDXW
-    jmp Loop               FFDX
-    movq (%r10),%r11         FFDXMW
-    cbe $0,%r11,Done          FDXXX
-    multq %r12,%r11            FDXXMYW
-    movq %r11,(%r10)           FDDDXXXM
-    addq $8,%r10                FDDXW
-    jmp Loop                     FFDX
-Done:
-~~~
-
 Bogstaverne til højre viser hver instruktions passage gennem pipelinen.
 Betydningen af bogstaverne er:
 
@@ -75,17 +55,6 @@ De skal stadig vente i D på operander til adresseberegning, men skal først ven
 i X på selve den værdi der skal skrives til lageret.
 
 Gentegn afviklingsplottet ovenfor under hensyntagen til denne ændring.
-
-~~~
-Loop:
-    movq (%r10),%r11    FDXMYW
-    cbe $0,%r11,Done    FDDDXMYW
-    multq %r12,%r11      FDDXMYW
-    movq %r11,(%r10)     FFFDXXXMYW
-    addq $8,%r10          FFDXMYW
-    jmp Loop                FDXMYW
-Done:
-~~~
 
 ## Spg 2:
 
