@@ -195,7 +195,7 @@ Det bedste er at tegne en afhængighedsgraf som i BOH, så det gør jeg (linienu
 ~~~
 Jeg har noteret et `S` ud for de tre afhængigheder, som skabte stalls.
 
-Vi kan se at rækken at instruktioner fra 1 til 4 alle skaber stalls. Så vi kan desværre ikke gøre noget ved dette. Men da `addq` er uafhængig fra de andre, kan vi flytte den frem. Altså for eksempel:
+Vi kan se at rækken at instruktioner fra 1 til 4 alle skaber stalls. Så vi kan desværre ikke gøre noget ved dette. (F.eks. havde der ikke været en stall mellem `1:movq` og `3:multq`, kunne den sidste evt. flyttes frem.) Men da `addq` er uafhængig fra de andre, kan vi flytte den frem. Altså for eksempel:
 
 ~~~
 Loop:
