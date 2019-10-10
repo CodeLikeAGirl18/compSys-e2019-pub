@@ -202,9 +202,9 @@ Loop:
     movq (%r10),%r11    FDXMYW           -- produce(M,%r11)
     cbe $0,%r11,Done    FDDDXMYW         -- depend(X,%r11)
     multq %r12,%r11      FDDXMYW         -- depend(X,%r11), produce(Y,%r11)
-    addq $8,%r10          FFDXMYW       -- depend(X,%r10), produce(X,%r10)
-    movq %r11,-8(%r10)      FFDXXMYW       -- depend(X,%r10), depend(M,%r11)
-    jmp Loop                FDXMYW
+    addq $8,%r10          FFDXMYW        -- depend(X,%r10), produce(X,%r10)
+    movq %r11,-8(%r10)      FFDXXMYW     -- depend(X,%r10), depend(M,%r11)
+    jmp Loop                FDDXXMYW
 Done:
 ~~~
 
