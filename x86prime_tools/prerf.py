@@ -124,8 +124,13 @@ for key in args_list:
       else:
         flaglist += ' -'+key+' '+str(value)
 
+## Get possible inputs
+input = ""
+for line in sys.stdin:
+  input += line
+
 # defining a params dict for the parameters to be sent to the API
-DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "args":strargs, "flaglist":flaglist}
+DATA = {'file':args.fileCont,'sym':symfile_cont,"prg":args.prg, "args":strargs, "flaglist":flaglist, "input":input}
 # sending get request and saving the response as response object
 r = requests.post(url = URL, data = DATA)
 
@@ -143,10 +148,10 @@ if error.text != "":
   print(error.text)
   exit()
 else:
-  if args.show == True:
+  # if args.show == True:
     # if success write the output to file in same dir as input file
     # This is the behaviour of primify, though not the best.
-    extenstion_to_get = "sim"
-    output = requests.get(url = URLDIR+runid+"."+extenstion_to_get)
-    print(output.text)
+  extenstion_to_get = "sim"
+  output = requests.get(url = URLDIR+runid+"."+extenstion_to_get)
+  print(output.text)
 
