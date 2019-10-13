@@ -16,6 +16,9 @@ parser.add_argument('args',
 parser.add_argument('-show', dest='show', action='store_const',
                     const=True,
                     help='show each simulation step')
+parser.add_argument('-profile', dest='show', action='store_const',
+                    const=True,
+                    help='print an execution profile')
 
 parser.add_argument('-bp_type',  dest='bp_type',
                     choices=['t','nt','btfnt','oracle','local','gshare'],
