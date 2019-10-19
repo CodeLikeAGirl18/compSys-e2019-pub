@@ -16,8 +16,11 @@ First, you need to install Virtual Box for your OS, which you find on the link b
 
 https://www.virtualbox.org/
 
+### macOS permissions
+On newer macbooks the installation can fail. In that case you need to the Security & Privacy setting and give the installation program full permissions.
+
 ### Virtualisation Technology
-For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. It you get the error 
+For efficiently running the VM you need to have enabled Intel Virtualisation Technology (Intel VT) or AMD-Virtualisation (AMD-V), depending on your processor provider. If you get the error 
 
 ```
 VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)
@@ -29,7 +32,8 @@ or similar, you need to enter your BIOS setup and update this. This is very arch
 ## The VM image
 On the following link you find the image from CompSys 2017. You can use now this to test your workflow, but it also works with for our basic needs. We will later provide an updated image with the relevant tools.
 
-[03.09.2019] http://topps.diku.dk/compsys/compSys19-v1.0-debian-64bit.ova
+* [16.09.2019] http://topps.diku.dk/compsys/compSys19-v1.1-debian-64bit.ova
+* [03.09.2019] http://topps.diku.dk/compsys/compSys19-v1.0-debian-64bit.ova
 
 
 The VM has the following credentials:
@@ -98,7 +102,7 @@ The basic idea here is:
  * Compile and execute your code on the VM (logged-in terminal)
  * You should still use git on your machine to share with your group
 
-This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login".
+This requires that you have an ssh server installed and running on your machine. On OS X you do this by going to "Preferences" -> "Sharing" and enabling "Remote login". __THIS IS VERY IMPORTANT__
 
 First you need to setup which directory that you want to have mounted on the VM. You do this by calling
 

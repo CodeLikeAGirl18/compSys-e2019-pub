@@ -153,6 +153,8 @@ Friday 14-16
   * HCØ A105
   * HCØ A106
 * Week 45
+  * HCØ A104
+  * HCØ A105
   * HCØ A107
   * HCØ A110
   * HCØ A111
@@ -162,7 +164,10 @@ Friday 14-16
 Wednesday 15-17
 * Main room
   * DIKU Bib 4-0-17
-* Breakout rooms: ...
+* Breakout rooms:
+  * DIKU 1-0-34
+  * DIKU 1-0-30
+  * DIKU 1-0-14
 
 Friday 14-16
 * HCØ A107

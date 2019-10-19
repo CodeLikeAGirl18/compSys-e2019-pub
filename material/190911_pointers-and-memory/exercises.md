@@ -12,7 +12,8 @@ Take some of the programs from last weeks exercises or perhaps even
 the assignment and play around with GDB. Recreate a bug that you had
 in your program and try finding it with GDB.  Test most of the
 commands on the [GDB QUICK REFERENCE
-sheet](https://sourceware.org/gdb/current/onlinedocs/refcard.pdf.gz).
+sheet](https://sourceware.org/gdb/current/onlinedocs/refcard.pdf.gz)
+(which can also be found in today's exercise folder).
 
 ## Debug some programs
 
@@ -31,4 +32,3 @@ We recommend to investigate in the following order:
 
 Integers are by now way too easy. Don't miss the [Floating point
 game](https://games.onlineta.org/floating-point.html).
-
