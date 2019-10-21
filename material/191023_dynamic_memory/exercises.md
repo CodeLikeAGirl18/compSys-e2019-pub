@@ -1,14 +1,14 @@
 # Exercises for Wednesday 23rd of October
 
-* 8.3 (page 781)
-* 8.4 (page 784)
-* 8.6 (page 788)
-* 8.9 (page 824)
-* 8.12 (page 825)
-* 8.22 (page 829)
-* 8.25 (page 830) (this is the most interesting one)
+# Implementing a stack
 
-## And the fun one:
+The `calc/` directory contains the code for a simple calculator that
+uses Reverse Polish Notation.  For example, to add two numbers and
+print the result we would input `2 3 + p`.  Unfortunately I ran late
+and forgot to finish the implementation of `stack.h` and `stack.c`.
+Finish it for me so the stack calculator will work.
+
+# List implementation
 
 Change the implementation of the list library covered in the lectures
 (`list.c`) to use a different representation.  Do not change `list.h`.
