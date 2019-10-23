@@ -10,13 +10,13 @@ struct list {
   struct list_node *head;
 };
 
-list* list_create() {
+struct list* list_create() {
   struct list *list = malloc(sizeof(list));
   list->head = NULL;
   return list;
 }
 
-void list_free(list* list) {
+void list_free(struct list* list) {
   struct list_node *node = list->head;
   while (node != NULL) {
     struct list_node *next = node->next;
@@ -26,7 +26,7 @@ void list_free(list* list) {
   free(list);
 }
 
-int list_insert_first(list* list, void* data) {
+int list_insert_first(struct list* list, void* data) {
   struct list_node *new_head = malloc(sizeof(struct list_node));
   new_head->data = data;
   new_head->next = list->head;
@@ -34,7 +34,7 @@ int list_insert_first(list* list, void* data) {
   return 0;
 }
 
-int list_remove_first(list* list, void** dest) {
+int list_remove_first(struct list* list, void** dest) {
   if (list->head == NULL) {
     return 1;
   }
@@ -45,7 +45,7 @@ int list_remove_first(list* list, void** dest) {
   return 0;
 }
 
-void list_map(list* list, map_fn f, void *aux) {
+void list_map(struct list* list, map_fn f, void *aux) {
   struct list_node *node = list->head;
   while (node != NULL) {
     node->data = f(node->data, aux);

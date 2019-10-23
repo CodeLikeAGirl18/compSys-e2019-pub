@@ -9,7 +9,7 @@ void* print_elem(void *data, void *aux_data) {
   return data;
 }
 
-void print_list(list *l) {
+void print_list(struct list *l) {
   list_map(l, print_elem, NULL);
 }
 
@@ -20,7 +20,7 @@ void* inc_elem(void *data, void *aux_data) {
   return data;
 }
 
-void inc_list(list *l, int K) {
+void inc_list(struct list *l, int K) {
   list_map(l, inc_elem, &K);
 }
 
@@ -29,7 +29,7 @@ int main() {
 
   int x = 1, y = 2, z = 3;
   void *d;
-  list *l = list_create();
+  struct list *l = list_create();
   assert(l != NULL);
   assert(list_insert_first(l, &x) == 0);
   assert(list_insert_first(l, &y) == 0);
