@@ -10,6 +10,7 @@ static void out_of_memory() {
 }
 
 static void perform_binop(struct stack_t* stack, binop op) {
+  if (op == NULL) printf("OP NULL\n");
   double *x;
   double *y;
   double *z;
@@ -20,7 +21,7 @@ static void perform_binop(struct stack_t* stack, binop op) {
     x = stack_pop(stack);
     if (!stack_empty(stack)) {
       y = stack_pop(stack);
-      *z = (*op)(*x,*y);
+      *z = (*op)(*y, *x);
       free(x);
       free(y);
       if (stack_push(stack, z) == 1) {

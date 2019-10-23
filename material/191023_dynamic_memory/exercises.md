@@ -3,9 +3,22 @@
 # Implementing a stack
 
 The `calc/` directory contains the code for a simple calculator that
-uses Reverse Polish Notation.  For example, to add two numbers and
-print the result we would input `2 3 + p`.  Unfortunately I ran late
-and forgot to finish the implementation of `stack.h` and `stack.c`.
+uses Reverse Polish Notation. For example, to compute the expression
+`2 / 3` and print the result, we would input:
+
+~~~
+$ ./calc
+2
+3
+/
+p
+0.666667
+~~~
+
+*Note the newlines after each symbol.*
+
+Unfortunately I ran late and forgot to finish the
+implementation of `stack.h` and `stack.c`.
 Finish it for me so the stack calculator will work.
 
 # List implementation
