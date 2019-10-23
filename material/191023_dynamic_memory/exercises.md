@@ -4,15 +4,19 @@
 
 The `calc/` directory contains the code for a simple calculator that
 uses Reverse Polish Notation. For example, to compute the expression
-`2 / 3` and print the result, we would input:
+`(3 - 4) / (5 + 6) == -0.090909` and print the result, we would input:
 
 ~~~
 $ ./calc
-2
 3
+4
+-
+5
+6
++
 /
 p
-0.666667
+-0.090909
 ~~~
 
 *Note the newlines after each symbol.*
