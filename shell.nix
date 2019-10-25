@@ -10,11 +10,12 @@ pkgs.mkShell {
     gnumake
     gcc
     gdb
+    valgrind
     binutils
     x86prime
   ];
 
   shellHook = ''
-    alias gcc2asm="gcc -S -Og -fno-optimize-sibling-calls"
+    alias gcc2asm="gcc -Wall -Wextra -pedantic -S -Og -fno-optimize-sibling-calls -no-pie -fno-pie"
   '';
 }
