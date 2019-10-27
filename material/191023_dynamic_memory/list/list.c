@@ -30,16 +30,19 @@ int list_insert_first(struct list* list, void* data) {
   struct list_node *new_head = malloc(sizeof(struct list_node));
   new_head->data = data;
   new_head->next = list->head;
+
   list->head = new_head;
   return 0;
 }
 
+
+
 int list_remove_first(struct list* list, void** dest) {
-  if (list->head == NULL) {
+  struct list_node *old_head = list->head;
+  if (old_head == NULL) {
     return 1;
   }
-  *dest = list->head->data;
-  struct list_node *old_head = list->head;
+  *dest = old_head->data;
   list->head = old_head->next;
   free(old_head);
   return 0;

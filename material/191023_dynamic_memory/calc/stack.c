@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include "stack.h"
 
+
+
 void stack_init(struct stack_t* stack) {
   assert(0);
 }

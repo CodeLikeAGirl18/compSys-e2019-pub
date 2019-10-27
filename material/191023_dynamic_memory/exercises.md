@@ -16,10 +16,23 @@ $ ./calc
 +
 /
 p
--0.090909
+Result: -0.090909
 ~~~
 
 *Note the newlines after each symbol.*
+
+And to compute the expression `3 - (4 - 5) == 4` and print the result,
+we would input:
+~~~
+$ ./calc
+3
+4
+5
+-
+-
+p
+Result: 4
+~~~
 
 Unfortunately I ran late and forgot to finish the
 implementation of `stack.h` and `stack.c`.
