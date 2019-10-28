@@ -1,8 +1,13 @@
 #ifndef STACK_H
 #define STACK_H
 
+struct node {
+  void        *data;
+  struct node *next;
+};
+
 struct stack_t {
-  int dummy; // replace
+  struct node *top;
 };
 
 void stack_init(struct stack_t*);

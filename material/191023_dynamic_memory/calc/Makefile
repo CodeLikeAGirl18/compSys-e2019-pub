@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g -pedantic -std=c99 -Wall -Wextra
+CFLAGS=-pedantic -std=c99 -Wall -Wextra -g3
 
 calc: calc.o stack.o
 	$(CC) $(CFLAGS) calc.o stack.o -o calc
