@@ -59,8 +59,7 @@ int list_insert_first(struct list *list, void *data) {
     list->first->prev = new_first;
 
   list->first = new_first;
-  return 0;
-}
+  return 0; }
 
 
 int list_remove_first(struct list* list, void** dest) {

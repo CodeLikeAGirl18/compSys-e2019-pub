@@ -8,10 +8,6 @@ struct list {
 };
 
 
-/*
- *  list_create() is almost unchanged, but we of course also need
- *  to NULL-initialize the last-pointer of the new list.
- */
 struct list *list_create() {
   struct list *list = malloc(sizeof(struct list));
 
@@ -21,9 +17,7 @@ struct list *list_create() {
   return list;
 }
 
-/*
- * 
- */
+
 void list_free(struct list *list) {
 
   if (list == NULL)
@@ -37,11 +31,6 @@ void list_free(struct list *list) {
 }
 
 
-/*
- *  list_insert_first() is a little different with doubly-linked
- *  lists, as here, we need to fit the new node in between the
- *  previous first and last nodes.
- */
 int list_insert_first(struct list *list, void *data) {
 
   if (list == NULL)
@@ -52,8 +41,8 @@ int list_insert_first(struct list *list, void *data) {
 
   void **old_data = list->data;
   void **new_data = malloc(new_length * sizeof(void*));
-  new_data[0] = data;
 
+  new_data[0] = data;
 
   if (old_data != NULL) {
     for (int i = 0; i < old_length; i++) {
@@ -69,9 +58,6 @@ int list_insert_first(struct list *list, void *data) {
 }
 
 
-/*
- *  with singly-linked lists, removal is pretty straight-forward
- */
 int list_remove_first(struct list *list, void **dest) {
   if (list == NULL || list->data == NULL)
     return 1;
@@ -80,9 +66,11 @@ int list_remove_first(struct list *list, void **dest) {
   int new_length  = old_length - 1;
 
   void **old_data = list->data;
+  void **new_data;
+
   *dest = old_data[0];
 
-  void **new_data;
+
   if (new_length >= 1) {
     new_data = malloc(new_length * sizeof(void*));
     for (int i = 0; i < new_length; i++) {
@@ -102,11 +90,6 @@ int list_remove_first(struct list *list, void **dest) {
 }
 
 
-/*
- *  as with list_free(), when mapping the list, it does not
- *  matter in which order we iterate, but we need to prevent
- *  from wrapping around when the last node is reached.
- */
 void list_map(struct list *list, map_fn f, void *aux) {
 
   if (list == NULL)
