@@ -200,10 +200,8 @@ void Sigdelset(sigset_t *set, int signum)
 
 int Sigismember(const sigset_t *set, int signum)
 {
-    int rc;
-    if ((rc = sigismember(set, signum)) < 0)
-	unix_error("Sigismember error");
-    return rc;
+    // Cannot fail.
+    return sigismember(set, signum);
 }
 
 int Sigsuspend(const sigset_t *set)
@@ -714,28 +712,6 @@ pthread_t Pthread_self(void) {
  
 void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {
     pthread_once(once_control, init_function);
-}
-
-/*******************************
- * Wrappers for Posix semaphores
- *******************************/
-
-void Sem_init(sem_t *sem, int pshared, unsigned int value) 
-{
-    if (sem_init(sem, pshared, value) < 0)
-	unix_error("Sem_init error");
-}
-
-void P(sem_t *sem) 
-{
-    if (sem_wait(sem) < 0)
-	unix_error("P error");
-}
-
-void V(sem_t *sem) 
-{
-    if (sem_post(sem) < 0)
-	unix_error("V error");
 }
 
 /****************************************
