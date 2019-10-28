@@ -5,6 +5,7 @@
 #include <signal.h>
 #include <errno.h>
 #include <time.h>
+
 #define NUM_CHILDREN 2
 
 void child_lifespan();
@@ -46,7 +47,6 @@ int main() {
 
   exit(0);
 }
-
 
 
 /*

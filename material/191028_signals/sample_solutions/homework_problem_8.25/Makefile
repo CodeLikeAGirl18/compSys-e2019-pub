@@ -1,6 +1,6 @@
 gcc=gcc -g -Werror -Wpedantic -Wall -o
-src=homework_problem_8-24.c
-executable=homework_problem_8-24
+src=tfgets.c
+executable=tfgets
 
 
 compile: $(executable)
