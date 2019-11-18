@@ -148,13 +148,6 @@ https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
  * NBB, Niels Bohr Building, Jagtvej 128 (other side of Jagtvej)
  * HCØ, Aud 7 is 1st floor in Vandrehallen
 
-#### Blok 2
-Will be assigned later...
-
-Monday 15-17: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, DIKU 1-0-26, DIKU 1-0-30, and DIKU 1-0-37.
-
-Wednesday 13-15: DIKU 1-0-04, DIKU 1-0-10, DIKU 1-0-14, DIKU 1-0-18, DIKU 1-0-22, DIKU 1-0-30, DIKU 1-0-34, and DIKU 1-0-37.
-
 ## Cafées
  * Wednesdays 15-17
    * This sessions have a café structure and are dedicated to help with assignments and other open questions.
