@@ -83,33 +83,58 @@ TAs:
   * Blok 1
     * Mon 15-17: HCØ Aud 07
     * Wed 13-15: DIKU 1-0-34
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-18
+    * Wed 13-15: DIKU 1-0-34
 * Hold 2: _Jens Kanstrup Larsen_
   * Blok 1
     * Tue 13-15: DIKU 1-0-22
     * Wed 13-15: DIKU 1-0-22
+  * Blok 1
+    * Tue 13-15: DIKU 1-0-22
+    * Wed 13-15: DIKU 1-0-22
+
 * Hold 3: _Daniel Alstrup_
   * Blok 1
     * Mon 15-17: Biocenter, 2-2-07/09
+    * Wed 13-15: DIKU 1-0-30
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-30
     * Wed 13-15: DIKU 1-0-30
 * Hold 4: _Magnus Joensen_
   * Blok 1
     * Mon 15-17: Biocenter 4-0-05
     * Wed 13-15: DIKU 1-0-14
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-14
+    * Wed 13-15: DIKU 1-0-14
 * Hold 5: _Eva Kroon Enevoldsen_
   * Blok 1
     * Mon 15-17: NBB 1.H.142
+    * Wed 13-15: DIKU 1-0-10
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-10
     * Wed 13-15: DIKU 1-0-10
 * Hold 6: _Jonas Flach-Jensen_
   * Blok 1
     * Mon 15-17: DIKU 3-1-25
     * Wed 13-15: DIKU 1-0-18
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-26
+    * Wed 13-15: DIKU 1-0-18
 * Hold 7: _Anders Holst_
   * Blok 1
     * Mon 15-17: AB Teori 2
     * Wed 13-15: DIKU 1-0-37
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-37
+    * Wed 13-15: DIKU 1-0-37
 * Hold 8: _Kristian Bøjer Andreasen_
   * Blok 1
     * Mon 15-17: NEXS Auditorium Nord, Nørre Alle 51
+    * Wed 13-15: DIKU 1-0-04
+  * Blok 2
+    * Mon 15-17: DIKU 1-0-04
     * Wed 13-15: DIKU 1-0-04
 
 ### Room details
@@ -169,7 +194,7 @@ Wednesday 15-17
   * DIKU 1-0-30
   * DIKU 1-0-14
 
-Friday 14-16
+Friday 13-15
 * HCØ A107
 * HCØ A110
 * HCØ A111
