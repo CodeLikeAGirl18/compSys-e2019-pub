@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 
     assert(argc == 3);
     int from = Open(argv[1], O_RDONLY, 0);
-    int to = Open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0666);
+    int to   = Open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0666);
 
     Rio_readinitb(&rio, from);
     while((n = Rio_readnb(&rio, buf, BUFSIZE)) != 0)
@@ -20,4 +20,11 @@ int main(int argc, char** argv)
 
     close(from);
     close(to);
+}
+
+
+
+int main() {
+  assert(dup2(stdin, 5) == 0);
+  exit(0);
 }

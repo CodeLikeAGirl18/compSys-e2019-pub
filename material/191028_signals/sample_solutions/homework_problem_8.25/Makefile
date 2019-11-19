@@ -11,6 +11,5 @@ run: compile
 $(executable): $(src)
 	$(gcc) $(executable) $(src)
 
-
 clean:
 	rm -f $(executable)
