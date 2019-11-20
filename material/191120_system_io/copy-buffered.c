@@ -21,10 +21,3 @@ int main(int argc, char** argv)
     close(from);
     close(to);
 }
-
-
-
-int main() {
-  assert(dup2(stdin, 5) == 0);
-  exit(0);
-}
