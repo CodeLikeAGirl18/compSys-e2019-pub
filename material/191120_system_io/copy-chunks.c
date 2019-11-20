@@ -4,8 +4,7 @@
 
 #define BUFSIZE 4096
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
     int n;
     char buf[BUFSIZE];
 

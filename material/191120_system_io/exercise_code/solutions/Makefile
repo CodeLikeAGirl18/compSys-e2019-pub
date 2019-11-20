@@ -1,16 +1,15 @@
 gcc=gcc -I../../ -g -Werror -Wpedantic -Wall -pthread -o
-csapp=../../csapp.c ../../csapp.h
 
 all: fstatcheck cpfile cpfile_infile
 
 fstatcheck: fstatcheck.c
-	$(gcc) fstatcheck fstatcheck.c $(csapp)
+	$(gcc) fstatcheck fstatcheck.c csapp.c
 
 cpfile: cpfile.c
-	$(gcc) cpfile cpfile.c $(csapp)
+	$(gcc) cpfile cpfile.c csapp.c
 
 cpfile_infile: cpfile_infile.c
-	$(gcc) cpfile_infile cpfile_infile.c $(csapp)
+	$(gcc) cpfile_infile cpfile_infile.c csapp.c
 
 
 clean: 
