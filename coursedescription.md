@@ -223,7 +223,7 @@ There are 8 assignment in total during the course with deadline roughly every se
 | A2: Simulering of x86 subset      | 06 Oct @ 10:00AM    |
 | A3: Program behaviour             | 27 Oct @ 10:00AM    |
 | A4: Processes                     | 10 Nov @ 10:00AM    |
-| A5: Concurrent Programming        | 01 Dec @ 10:00AM    |
+| A5: Concurrent Programming        | 03 Dec @ 10:00AM    |
 | A6: Computer Networking - 1       | 15 Dec @ 10:00AM    |
 | A7: Computer Networking - 2       | 05 Jan @ 10:00AM    |
 
