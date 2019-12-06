@@ -188,10 +188,10 @@ Wednesday 15-17
   * DIKU 1-0-14
 
 Friday 13-15
-* HCØ A107
-* HCØ A110
-* HCØ A111
-* HCØ A112
+  * HCØ A101
+  * HCØ A102
+  * HCØ A103
+  * HCØ A104
 
 
 ## Study ambassadors
